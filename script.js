@@ -9,7 +9,7 @@
 // URL kooda replace pannunga. Example:
 // const API_BASE = "https://neuronexora-backend.onrender.com";
 // ------------------------------------------
-const API_BASE = "https://neuronexora-ai-a62m.onrender.com";
+const API_BASE = "https://neuronexora-ai-3s13.onrender.com";
 
 async function sendMessage() {
 
