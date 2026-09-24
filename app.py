@@ -15,8 +15,8 @@ load_dotenv()
 app = Flask(__name__)
 CORS(app)
 
-client = genai.Client(
-    api_key=os.getenv("GEMINI_API_KEY")
+client = OPENAI(
+    api_key=os.getenv("OPENAI_API_KEY")
 )
 
 
